@@ -1,0 +1,21 @@
+var rectangulo = 
+{
+  lado = null
+   altura = null
+ resultado =lado*altura
+ res(){
+    return "tu resultado es "+this.resultado;
+
+}
+}
+function save() {
+    rectangulo.lado = document.getElementById('lado').value;
+    rectangulo.altura = document.getElementById('altura').value;
+}
+
+function calcular()
+{
+
+    alert(rectangulo.res());
+ }
+ 
